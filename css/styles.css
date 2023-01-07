@@ -13,6 +13,13 @@ body {
   color: var(--primery-text-color);
   background-color: var(--primery-background-color);
 }
+.container{
+  width:1440px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 156px;
+  padding-right: 156px;
+}
 h1,
 h2,
 h3,
@@ -27,6 +34,7 @@ ul,ol {
   padding-left: 0;
 
 }
+img{display: block;}
 .list {
   list-style: none;
 }
@@ -37,18 +45,55 @@ ul,ol {
 /* ===================HEADER================================ */
 
 /* menu */
+.top-header {
+  
+}
+.top-header-container{
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px; 
+  
+
+
+}
+.nav{
+  display: flex;
+  align-items: center;
+  
+  
+}
+.menu{
+  display: flex;
+  align-items: center;
+  
+}
+.contact { margin-left:auto;
+  
+   
+}
+.number{margin-left: 40px;
+ }
+
 .menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--title-text-color);
 }
+.menu-item:not(:last-child){
+  margin-right: 40px;
+}
+
 
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
 }
-
+.contact{
+  display: flex;
+  align-items: center;
+}
 .mail,
 .number {
   font-size: 16px;
@@ -71,6 +116,7 @@ ul,ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-background-color);
+  margin-right: 76px;
 }
 .logo .logo-studio-up {
   color: var(--title-text-color);
