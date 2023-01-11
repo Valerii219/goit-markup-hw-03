@@ -14,7 +14,7 @@ body {
   background-color: var(--primery-background-color);
 }
 .section {
-  margin-top: ;: 120px;
+  margin-top: 120px;
   margin-bottom: 120px;
 }
 .container {
@@ -22,14 +22,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid red;
-
-  }
+}
 h1,
 h2,
 h3,
 h4,
 p {
-  margin:0;
+  margin: 0;
 }
 ul,
 ol {
@@ -37,7 +36,9 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
-button {cursor: pointer;} 
+button {
+  cursor: pointer;
+}
 img {
   display: block;
 }
@@ -50,7 +51,7 @@ img {
 /* ===================HEADER================================ */
 
 /* menu */
-.top-header{
+.top-header {
   padding-bottom: 20px;
 }
 .top-header-container {
@@ -85,13 +86,15 @@ img {
   align-items: center;
   margin-left: auto;
 }
-.contact-div{ 
+.contact-div {
   display: flex;
   align-items: center;
   margin-left: auto;
   justify-items: space-between;
 }
-.contact-mail {margin-right: 30px;}
+.contact-mail {
+  margin-right: 30px;
+}
 
 .menu-link:hover,
 .menu-link:focus {
@@ -165,7 +168,6 @@ img {
   color: var(--title-text-color);
   text-align: center;
   margin-bottom: 72px;
-  
 }
 .suptitle {
   font-size: 16px;
@@ -197,9 +199,8 @@ img {
   line-height: 1.07;
   color: var(--third-text-color);
   max-width: 494px;
- padding-bottom: 48px;
- margin: 0 auto;
-
+  padding-bottom: 48px;
+  margin: 0 auto;
 }
 
 /* ===================/HERO================================ */
@@ -212,35 +213,31 @@ img {
 
 /* features */
 
-
 .features-list {
   display: flex;
   gap: 24px;
 }
-.features-list-title{
+.features-list-title {
   flex-basis: calc((100% - 72px) / 4);
 }
-
 
 .work-list {
   display: flex;
   gap: 24px;
 }
-.work-list-title{
+.work-list-title {
   flex-basis: calc((100% - 72px) / 3);
 }
- 
+
 .team {
   margin-top: 120px;
 }
 .team-list {
   display: flex;
   gap: 24px;
-
 }
 .team-list-title {
   flex-basis: calc((100% - 72px) / 4);
-
 }
 .feature-list .title {
   color: var(--title-text-color);
@@ -250,7 +247,6 @@ img {
 }
 .section-team {
   background-color: #f4f4fd;
-  
 }
 .team-card {
   padding-top: 32px;
@@ -267,21 +263,17 @@ img {
 /*===================== /MAIN =================*/
 
 /* ===================FOOTER============= */
-.footer {
-  
-}
+
 .container-footer {
   width: 1440px;
   padding-left: 156px;
   padding-top: 100px;
   padding-bottom: 100px;
   flex-grow: 1;
-  background-color: var(--title-text-color);
 }
 .suptitle-footer {
   max-width: 264px;
-   margin-top: 16px;
-  
+  margin-top: 16px;
 }
 
 /* ===================/FOOTER============= */
