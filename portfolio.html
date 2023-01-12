@@ -20,22 +20,26 @@
   <body>
     <!--header-->
     <header class="top-header">
-      <nav class="nav">
-        <a class="logo link" href="./index.html">Web<span class="logo-studio-up">Studio</span></a>
-        <ul class="menu list">
-          <li class="menu-item"><a href="./index.html" class="menu-link link">Studio</a></li>
-          <li class="menu-item"><a href="./portfolio.html" class="menu-link link">Portfolio</a></li>
-          <li class="menu-item"><a href="" class="menu-link link">Contacts</a></li>
-        </ul>
-      </nav>
-      <ul class="contact list">
-        <li class="contact-mail">
-          <a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a>
-        </li>
-        <li class="contact-number">
-          <a href="tel:+110001111111" class="number link">+11 (000) 111-11-11</a>
-        </li>
-      </ul>
+      <div class="container top-header-container">
+        <nav class="nav">
+          <a class="logo link container-logo" href="./index.html">Web<span class="logo-studio-up">Studio</span></a>
+          <ul class="menu list">
+            <li class="menu-item"><a href="./index.html" class="menu-link link">Studio</a></li>
+            <li class="menu-item">
+              <a href="./portfolio.html" class="menu-link link">Portfolio</a>
+            </li>
+            <li class="menu-item"><a href="" class="menu-link link">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="contact-div"><ul class="contact list">
+          <li class="contact-mail">
+            <a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a>
+          </li>
+          <li class="contact-number">
+            <a href="tel:+110001111111" class="number link">+11 (000) 111-11-11</a>
+          </li>
+        </ul></div>
+      </div>
     </header>
     <!--main-->
     <main class="main">
@@ -72,9 +76,9 @@
                 height="300"
               />
               <h2 class="caption">Banking App Interface Concept</h2>
-              <p>class=suptitleApp</p>
+              <p class="suptitle">App</p>
             </li>
-            <li claclass="img-project" ss="content-title">
+            <li class="content-title">
               <img
                 class="img-project"
                 src="./images/projectcard2.jpg"
@@ -168,11 +172,13 @@
     </main>
     <!--footer-->
     <footer class="footer">
-      <a href="./index.html" class="logo link">Web<span class="logo-studio-down">Studio</span></a>
-      <p class="suptitle suptitle-footer">
-        Increase the flow of customers and sales for your business with digital marketing & growth
-        solutions.
-      </p>
+      <div class=" container-footer">
+        <a href="./index.html" class="logo link footer-logo">Web<span class="logo-studio-down">Studio</span></a>
+        <p class="suptitle suptitle-footer">
+          Increase the flow of customers and sales for your business with digital marketing & growth
+          solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
