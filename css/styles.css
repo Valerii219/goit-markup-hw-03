@@ -216,9 +216,11 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
+ 
 }
 .features-list-title {
   flex-basis: calc((100% - 72px) / 4);
+ 
 }
 
 .work-list {
