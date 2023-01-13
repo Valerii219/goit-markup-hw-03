@@ -21,6 +21,9 @@ body {
   padding-top: 0;
   padding-bottom: 0;
 }
+.section-work {
+  padding-top: 0;
+}
 .container {
   width: 1158px;
   margin-left: auto;
@@ -55,9 +58,6 @@ img {
 /* ===================HEADER================================ */
 
 /* menu */
-.top-header {
-  padding-bottom: 20px;
-}
 .top-header-container {
   display: flex;
   align-items: center;
@@ -116,6 +116,11 @@ img {
 .number:focus {
   color: var(--accent-color);
 }
+.ramka {
+  min-width: 1158px;
+  min-height: 20px;
+  border: 1px transparent;
+}
 /* ===================/HEADER================================ */
 /*===================== COMPONENTS =================*/
 .logo {
@@ -135,8 +140,6 @@ img {
 }
 /* button */
 .modal-btn {
-  display: block;
-  margin: 0 auto;
   padding-bottom: 188px;
   letter-spacing: 0.04em;
   color: var(--third-text-color);
@@ -154,11 +157,16 @@ img {
   color: var(--third-text-color);
 }
 .button {
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 12px 24px;
+  min-width: 116px;
+  text-decoration: none;
+  text-align: center;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--secondary-background-color);
+  border: 1px solid #e7e9fc;
 }
 .button:hover,
 .button:focus {
@@ -212,29 +220,44 @@ img {
 /* ===================/HERO================================ */
 
 /*===================== MAIN =================*/
+/* ========================PORTFOLIO =============*/
+.filters-button-project {
+  display: inline-block;
+  text-align: center;
+}
+
+.section-row {
+  padding-bottom: 120px;
+}
 .row {
-  width: 1158px;
+  width: 1128px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid red;
   margin-top: 96px;
-  margin-bottom: 120px;
 }
 .content {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 .content-title {
   flex-basis: calc((100% - 72px) / 3);
 }
 
+/* ========================/PORTFOLIO =============*/
+
 .our {
   opacity: 0;
   display: none;
 }
-
-/* features */
+.portfolio-card {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
+}
 
 .features-list {
   display: flex;
@@ -289,7 +312,8 @@ img {
 /* ===================FOOTER============= */
 
 .container-footer {
-  width: 1440px;
+  margin: 0 auto;
+  width: 1158px;
   padding-left: 156px;
   padding-top: 100px;
   padding-bottom: 100px;
