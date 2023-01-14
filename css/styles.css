@@ -322,15 +322,17 @@ img {
 /*===================== /MAIN =================*/
 
 /* ===================FOOTER============= */
-
+.footer{
+  background-color: var(--title-text-color);}
 .container-footer {
   margin: 0 auto;
   width: 1158px;
-  padding-left: 156px;
   padding-top: 100px;
   padding-bottom: 100px;
+  padding-left: 15px;
+
   flex-grow: 1;
-  background-color: var(--title-text-color);
+  
 }
 .suptitle-footer {
   max-width: 264px;
