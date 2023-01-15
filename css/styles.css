@@ -90,8 +90,7 @@ img {
   display: flex;
   align-items: center;
   margin-left: auto;
-  justify-items: space-between;
-}
+  }
 .contact-mail {
   margin-right: 30px;
 }
