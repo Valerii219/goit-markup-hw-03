@@ -112,11 +112,7 @@ img {
 .number:focus {
   color: var(--accent-color);
 }
-.ramka {
-  min-width: 1158px;
-  min-height: 20px;
-  border: 1px transparent;
-}
+
 /* ===================/HEADER================================ */
 /*===================== COMPONENTS =================*/
 .logo {
